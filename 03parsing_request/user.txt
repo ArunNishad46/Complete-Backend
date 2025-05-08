@@ -1,0 +1,1 @@
+{"username":"Akash Nishad","email":"akash123@google.com","password":"Akash@123","gender":"male"}

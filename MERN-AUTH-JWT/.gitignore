@@ -1,0 +1,21 @@
+# .gitignore
+
+# Node modules
+**/node_modules/
+
+# Logs
+*.log
+
+# dotenv files
+**/.env
+
+# Build files
+client/build/
+
+# .gitignore
+.env
+Frontend/.env
+Backend/.env
+Frontend/node_modules
+Backend/node_modules
+

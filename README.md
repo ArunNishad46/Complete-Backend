@@ -1,1 +1,1 @@
-# Complete Backend series - React js, Node js, Express js, MongoDB, Firebase
+# Complete Backend series - Node js, Express js, MongoDB, Firebase

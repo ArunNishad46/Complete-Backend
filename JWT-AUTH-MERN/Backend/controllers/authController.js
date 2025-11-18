@@ -99,6 +99,11 @@ const refresh = async (req, res) => {
         return res.status(403).json({ message: 'Invalid refresh token' });
       }
 
+      const user = await User.findById(decoded.id);
+      if (!user || user.refreshToken !== refreshToken) {
+        return res.status(403).json({ message: 'Invalid refresh token' });
+      }
+
       const newAccessToken = generateAccessToken(user);
       res.status(200).json({ accessToken: newAccessToken });
     });
